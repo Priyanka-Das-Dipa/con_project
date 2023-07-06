@@ -52,7 +52,7 @@
 }
 .discription{
     text-align: justify;
-    color: rgb(110, 80, 56);
+    color: rgb(255, 255, 255);
     
 }
 h2{
@@ -89,13 +89,27 @@ h1{
     margin-bottom: 5px;
     padding-top: 10px;
     padding-bottom: 15px;
-    color: rgb(110, 80, 56);
+    color: rgb(255, 255, 255);
+}
+#about{
+    background-image: url("./images/back_1.jpg");
+    height: 100vh;
+    margin: 0px;
+    padding: 0px;
+
+}
+#abou1{
+    height: 100vh;
+    background-image: url('./images/back_1.jpg'),linear-gradient(45deg,rgb(5, 5, 5), #2e2e2e);
 }
 .about{
+    
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     flex-direction: row-reverse;
-    height: 70vh;
+    height: 100vh;
+    margin: 70px;
+    padding: 50px;
 }
 .box{
     width: 400px;
@@ -109,7 +123,9 @@ h1{
 .service-container{
     display: flex;
     justify-content: space-around;
-    height: 70vh;
+    height: 100vh;
+    margin-top: 70px;
+    padding: 30px;
 }
 .icons{
     margin: 5px;
@@ -129,3 +145,71 @@ h1{
     color: rgb(245, 147, 147);
 
 }
+.footer{
+    display: flex;
+    justify-content: space-around;
+    height: 70vh;
+    background-image: url("./images/back_1.jpg");
+    color: white;
+}
+.footer-box{
+    height: 350px;
+    width: 250px;
+    border: none;
+    /* box-shadow: 5px 5px 10px rgb(92, 88, 81); */
+    margin-bottom: 15px;
+    margin-top: 100px;
+    font: italic;
+    padding-right: 10px;
+    margin: 100px;
+}
+.p{
+    text-align: left;
+    margin-top: 0px;
+}
+.logo-footer{
+    width: 150px;
+    margin: 20px;
+    border: none;
+    margin: 10px;
+    padding-top: 10px;
+}
+
+.ul-list{
+    margin: 10px;
+    text-align: left;
+    padding-top: 10px;
+    list-style: none;
+    margin-left: 30px;
+}
+#h3{
+    font-size: 25px;
+    font-style: inherit, bold;
+    padding-top: 15px;
+    margin-left: 30px;
+    text-align: left;
+
+}
+.fp{
+    font-size: 15px;
+    margin-left: 30px;
+
+}
+#h1{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 55px;
+    font-weight: bold;
+    color: rgb(141, 116, 116);
+}
+.copy{
+    text-align: center;
+    padding: 15px;
+    background-image: url("./images/back_1.jpg");
+    color: white;
+}
+hr{
+    margin: 55px;
+    color: rgb(13, 12, 12);
+}
+
